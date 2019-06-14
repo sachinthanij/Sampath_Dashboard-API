@@ -1,21 +1,13 @@
-const express = require('express'),
-    http = require('http'),
-    https = require('https');
+'use strict';
+module.exports = function(app) {
+    const todoList = require('./controllers/home');
+    // todoList Routes
+    app.route('/tasks')
+        .get(todoList.list_all_tasks)
+        .post(todoList.create_a_task);
 
-
-const HomeController = require('./controllers/home');
-
-module.exports = function (app) {
-    // Initializing route groups
-    const apiRoutes = express.Router(),
-        homeRoutes = express.Router();
-
-    apiRoutes.use('/home', homeRoutes);
-
-    // route to  home
-    homeRoutes.get('/', HomeController.home);
-
-// Set url for API group routes
-    app.use('/api', apiRoutes);
+    app.route('/tasks/:taskId')
+        .get(todoList.read_a_task)
+        .put(todoList.update_a_task)
+        .delete(todoList.delete_a_task);
 };
-

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af15c90d-c405-4c4b-be85-006512a7c1ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,12 +34,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="-934">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://H:/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="244" column="64" lean-forward="false" selection-start-line="244" selection-start-column="64" selection-end-line="244" selection-end-column="76" />
+              <folding>
+                <element signature="e#1000#6857#0#HTML" expanded="false" />
+                <element signature="e#5225#6837#0#HTML" expanded="false" />
+                <marker date="1560166835619" expanded="true" signature="64805:64841" ph="SELECT id,re... region_tb" />
+                <marker date="1560166835619" expanded="true" signature="65226:65275" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="65420:65498" ph="SELECT branc... branch_tb" />
+                <marker date="1560166835619" expanded="true" signature="65880:65959" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="65995:66008" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="66137:66144" ph="×" />
+                <marker date="1560166835619" expanded="true" signature="66172:66207" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="66352:66431" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="66969:67004" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67105:67140" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67194:67244" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67280:67330" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67578:67613" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67714:67749" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67808:67858" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="67894:67943" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="68190:68224" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="68325:68360" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="68415:68465" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="68501:68550" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="68796:68831" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="68932:68967" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="69021:69071" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="69107:69157" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="69362:69397" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="69498:69533" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="69587:69637" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="69673:69722" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="70312:70362" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="80366:80409" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="84706:84749" ph="..." />
+                <marker date="1560166835619" expanded="true" signature="87133:87176" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/inetpub/wwwroot/UAT" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
@@ -222,7 +266,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560329502331</updated>
-      <workItem from="1560329504091" duration="2111000" />
+      <workItem from="1560329504091" duration="4824000" />
     </task>
     <task id="LOCAL-00001" summary="Sample nodejs port change">
       <created>1560330332036</created>
@@ -238,11 +282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560330525330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Mysql Connection">
+      <created>1560331658663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560331658663</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2111000" />
+    <option name="totallyTimeSpent" value="4824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -255,7 +306,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -276,7 +327,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sample nodejs port change" />
     <MESSAGE value="Adding sample node" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding sample node" />
+    <MESSAGE value="Add Mysql Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mysql Connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -309,9 +361,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="-934">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="244" column="64" lean-forward="false" selection-start-line="244" selection-start-column="64" selection-end-line="244" selection-end-column="76" />
+          <folding>
+            <element signature="e#1000#6857#0#HTML" expanded="false" />
+            <element signature="e#5225#6837#0#HTML" expanded="false" />
+            <marker date="1560166835619" expanded="true" signature="64805:64841" ph="SELECT id,re... region_tb" />
+            <marker date="1560166835619" expanded="true" signature="65226:65275" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="65420:65498" ph="SELECT branc... branch_tb" />
+            <marker date="1560166835619" expanded="true" signature="65880:65959" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="65995:66008" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="66137:66144" ph="×" />
+            <marker date="1560166835619" expanded="true" signature="66172:66207" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="66352:66431" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="66969:67004" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67105:67140" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67194:67244" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67280:67330" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67578:67613" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67714:67749" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67808:67858" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="67894:67943" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="68190:68224" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="68325:68360" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="68415:68465" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="68501:68550" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="68796:68831" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="68932:68967" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="69021:69071" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="69107:69157" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="69362:69397" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="69498:69533" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="69587:69637" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="69673:69722" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="70312:70362" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="80366:80409" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="84706:84749" ph="..." />
+            <marker date="1560166835619" expanded="true" signature="87133:87176" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
