@@ -82,6 +82,21 @@ Task.getAllTask = function getAllTask(result) {
             array.push(gdperweekly);
             array.push(satperweekly);
             array.push(poperweekly);
+
+
+            array.push(res[0][0].Excellent);
+            array.push(res[0][0].VeryGood);
+            array.push(res[0][0].Good);
+            array.push(res[0][0].Satisfactory);
+            array.push(res[0][0].Poor);
+
+
+console.log(res[0][0].Excellent);
+            console.log(res[0][0].VeryGood);
+            console.log(res[0][0].Good);
+            console.log(res[0][0].Satisfactory);
+            console.log(res[0][0].Poor);
+
             result(null, array);
 
         }
@@ -108,6 +123,27 @@ Task.remove = function(id, result){
         else{
 
             result(null, res);
+        }
+    });
+};
+Task.getAllregions = function getAllTask(result) {
+    sql.query('select region_tb.id,COUNT(IF(rating="Excellent" ,1, NULL)) "Excellent",COUNT(IF(rating="Very Good",1, NULL)) "Very Good",COUNT(IF(rating="Good",1, NULL)) "Good",COUNT(IF(rating="Satisfactory",1, NULL)) "Satisfactory",COUNT(IF(rating="Poor",1, NULL)) "Poor" from records,region_tb,branch_tb  where records.branchcode = branch_tb.branchCode and branch_tb.id_region = region_tb.id  group by region_tb.id;SELECT id,region_Name FROM region_tb', function (err, res) {
+
+        if(err) {
+            console.log("error: ", err);
+            result(null, err);
+        }
+        else{
+            console.log(res[0]);
+            console.log(res[1]);
+
+
+            var  array = [];
+            array.push(res[0]);
+            array.push(res[1]);
+
+            result(null, array);
+
         }
     });
 };
